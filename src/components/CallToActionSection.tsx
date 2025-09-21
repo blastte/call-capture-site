@@ -2,9 +2,10 @@ import { Button } from "@/components/ui/button";
 
 const CallToActionSection = () => {
   return (
-    <section className="py-section bg-background">
-      <div className="container mx-auto px-6 lg:px-8">
-        <div className="max-w-4xl mx-auto text-center">
+    <section className="py-section bg-gradient-hero relative overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-premium opacity-5"></div>
+      <div className="container mx-auto px-6 lg:px-8 relative z-10">
+        <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-4xl lg:text-5xl font-bold text-brand-text mb-6">
             Ready to stop losing jobs?
           </h2>
@@ -17,7 +18,7 @@ const CallToActionSection = () => {
             variant="hero" 
             size="xl"
             asChild
-            className="text-xl px-12 py-4 h-16"
+            className="text-xl px-16 py-6 h-20 shadow-elegant hover:shadow-glow"
           >
             <a href="mailto:hello@alwaysbooked.com">Get Started Today</a>
           </Button>

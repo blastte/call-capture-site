@@ -9,19 +9,19 @@ All colors MUST be HSL.
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 0 0% 20%;
+    --foreground: 0 0% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 0 0% 20%;
+    --card-foreground: 0 0% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 20%;
+    --popover-foreground: 0 0% 15%;
 
     --primary: 13 100% 60%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 0 0% 96%;
-    --secondary-foreground: 0 0% 20%;
+    --secondary: 0 0% 98%;
+    --secondary-foreground: 0 0% 15%;
 
     --muted: 0 0% 96%;
     --muted-foreground: 0 0% 45%;
@@ -32,22 +32,37 @@ All colors MUST be HSL.
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 0 0% 90%;
-    --input: 0 0% 90%;
+    --border: 0 0% 92%;
+    --input: 0 0% 95%;
     --ring: 13 100% 60%;
 
-    /* AlwaysBooked Brand Colors */
+    /* Premium AlwaysBooked Brand Colors */
     --brand-orange: 13 100% 60%;
-    --brand-text: 0 0% 20%;
-    --brand-light-gray: 0 0% 96%;
+    --brand-orange-light: 13 100% 65%;
+    --brand-orange-dark: 13 100% 55%;
+    --brand-text: 0 0% 15%;
+    --brand-text-light: 0 0% 25%;
+    --brand-light-gray: 0 0% 98%;
+    --brand-warm-white: 25 20% 98%;
     
-    /* Shadows */
-    --shadow-card: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-    --shadow-card-hover: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    /* Premium Gradients */
+    --gradient-premium: linear-gradient(135deg, hsl(13 100% 60%) 0%, hsl(15 95% 65%) 50%, hsl(17 90% 70%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(25 20% 98%) 0%, hsl(0 0% 100%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(25 15% 99%) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(25 30% 99%) 0%, hsl(0 0% 100%) 100%);
     
-    /* Spacing */
-    --spacing-section: 5rem;
-    --spacing-content: 3rem;
+    /* Premium Shadows */
+    --shadow-card: 0 4px 25px -4px hsl(13 100% 60% / 0.08), 0 8px 16px -8px hsl(0 0% 0% / 0.12);
+    --shadow-card-hover: 0 8px 40px -8px hsl(13 100% 60% / 0.15), 0 16px 32px -16px hsl(0 0% 0% / 0.15);
+    --shadow-button: 0 4px 12px -2px hsl(13 100% 60% / 0.25);
+    --shadow-button-hover: 0 8px 20px -4px hsl(13 100% 60% / 0.35);
+    --shadow-elegant: 0 20px 60px -12px hsl(13 100% 60% / 0.12);
+    --shadow-glow: 0 0 40px hsl(13 100% 60% / 0.15);
+    
+    /* Premium Spacing */
+    --spacing-section: 6rem;
+    --spacing-content: 4rem;
+    --spacing-card: 2rem;
 
     --radius: 0.5rem;
 

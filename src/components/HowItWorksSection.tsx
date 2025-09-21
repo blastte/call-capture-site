@@ -39,8 +39,8 @@ const HowItWorksSection = () => {
             {steps.map((step, index) => (
               <div key={index} className="text-center group">
                 <div className="relative mb-6">
-                  <div className="w-20 h-20 bg-brand-orange rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
-                    <step.icon className="w-10 h-10 text-white" />
+                  <div className="w-24 h-24 bg-gradient-premium rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-all duration-500 shadow-button group-hover:shadow-glow">
+                    <step.icon className="w-12 h-12 text-white" />
                   </div>
                   <div className="text-sm font-semibold text-brand-orange mb-2">
                     {step.step}

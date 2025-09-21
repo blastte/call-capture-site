@@ -20,9 +20,9 @@ const benefits = [
 
 const BenefitsSection = () => {
   return (
-    <section className="py-section bg-brand-light-gray">
+    <section className="py-section bg-gradient-subtle relative">
       <div className="container mx-auto px-6 lg:px-8">
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-brand-text mb-4">
               Why Service Providers Choose AlwaysBooked
@@ -36,10 +36,10 @@ const BenefitsSection = () => {
             {benefits.map((benefit, index) => (
               <div 
                 key={index} 
-                className="bg-white rounded-xl p-8 shadow-card hover:shadow-card-hover transition-all duration-300 group hover:-translate-y-1"
+                className="bg-gradient-card rounded-2xl p-card shadow-elegant hover:shadow-glow transition-all duration-500 group hover:-translate-y-2 border border-white/20"
               >
-                <div className="w-16 h-16 bg-brand-orange/10 rounded-lg flex items-center justify-center mb-6 group-hover:bg-brand-orange/20 transition-colors">
-                  <benefit.icon className="w-8 h-8 text-brand-orange" />
+                <div className="w-20 h-20 bg-gradient-premium rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-all duration-300 shadow-button">
+                  <benefit.icon className="w-10 h-10 text-white" />
                 </div>
                 
                 <h3 className="text-xl font-bold text-brand-orange mb-4">

@@ -49,8 +49,12 @@ export default {
         },
         brand: {
           orange: "hsl(var(--brand-orange))",
+          'orange-light': "hsl(var(--brand-orange-light))",
+          'orange-dark': "hsl(var(--brand-orange-dark))",
           text: "hsl(var(--brand-text))",
+          'text-light': "hsl(var(--brand-text-light))",
           'light-gray': "hsl(var(--brand-light-gray))",
+          'warm-white': "hsl(var(--brand-warm-white))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
@@ -68,13 +72,24 @@ export default {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      backgroundImage: {
+        'gradient-premium': 'var(--gradient-premium)',
+        'gradient-hero': 'var(--gradient-hero)',
+        'gradient-card': 'var(--gradient-card)',
+        'gradient-subtle': 'var(--gradient-subtle)',
+      },
       boxShadow: {
         'card': 'var(--shadow-card)',
         'card-hover': 'var(--shadow-card-hover)',
+        'button': 'var(--shadow-button)',
+        'button-hover': 'var(--shadow-button-hover)',
+        'elegant': 'var(--shadow-elegant)',
+        'glow': 'var(--shadow-glow)',
       },
       spacing: {
         'section': 'var(--spacing-section)',
         'content': 'var(--spacing-content)',
+        'card': 'var(--spacing-card)',
       },
       keyframes: {
         "accordion-down": {
