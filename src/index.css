@@ -8,56 +8,56 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 222 47% 11%;
-    --foreground: 210 40% 98%;
+    --background: 0 0% 0%;
+    --foreground: 0 0% 95%;
 
-    --card: 224 40% 15%;
-    --card-foreground: 210 40% 98%;
+    --card: 0 0% 8%;
+    --card-foreground: 0 0% 95%;
 
-    --popover: 224 40% 15%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 0 0% 8%;
+    --popover-foreground: 0 0% 95%;
 
-    --primary: 210 20% 75%;
-    --primary-foreground: 222 47% 11%;
+    --primary: 210 60% 45%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 220 30% 20%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 0 0% 12%;
+    --secondary-foreground: 0 0% 95%;
 
-    --muted: 220 30% 18%;
-    --muted-foreground: 215 20% 65%;
+    --muted: 0 0% 10%;
+    --muted-foreground: 0 0% 60%;
 
-    --accent: 210 20% 75%;
-    --accent-foreground: 222 47% 11%;
+    --accent: 210 60% 45%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62.8% 50.6%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 220 30% 25%;
-    --input: 220 30% 20%;
-    --ring: 210 20% 75%;
+    --border: 0 0% 15%;
+    --input: 0 0% 12%;
+    --ring: 210 60% 45%;
 
-    /* Premium Dark Theme Brand Colors - Silver/Gray */
-    --brand-silver: 210 20% 75%;
-    --brand-silver-light: 210 25% 85%;
-    --brand-silver-dark: 210 15% 60%;
-    --brand-text: 210 40% 98%;
-    --brand-text-light: 215 20% 85%;
-    --brand-dark-gray: 222 47% 11%;
-    --brand-card-dark: 224 40% 15%;
+    /* Premium Dark Theme Brand Colors - Metallic Blue */
+    --brand-blue: 210 60% 45%;
+    --brand-blue-light: 210 65% 55%;
+    --brand-blue-dark: 210 55% 35%;
+    --brand-text: 0 0% 95%;
+    --brand-text-light: 0 0% 75%;
+    --brand-black: 0 0% 0%;
+    --brand-card-dark: 0 0% 8%;
     
-    /* Premium Silver Gradients */
-    --gradient-premium: linear-gradient(135deg, hsl(210 20% 75%) 0%, hsl(210 25% 85%) 50%, hsl(200 30% 90%) 100%);
-    --gradient-hero: linear-gradient(135deg, hsl(222 47% 11%) 0%, hsl(224 40% 15%) 100%);
-    --gradient-card: linear-gradient(145deg, hsl(224 40% 15%) 0%, hsl(220 35% 18%) 100%);
-    --gradient-subtle: linear-gradient(180deg, hsl(222 47% 11%) 0%, hsl(224 40% 13%) 100%);
+    /* Premium Metallic Blue Gradients */
+    --gradient-premium: linear-gradient(135deg, hsl(210 55% 35%) 0%, hsl(210 60% 45%) 50%, hsl(210 65% 55%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(0 0% 0%) 0%, hsl(0 0% 5%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 8%) 0%, hsl(0 0% 10%) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 0%) 0%, hsl(0 0% 5%) 100%);
     
-    /* Premium Silver Shadows */
-    --shadow-card: 0 4px 25px -4px hsl(210 20% 75% / 0.08), 0 8px 16px -8px hsl(0 0% 0% / 0.3);
-    --shadow-card-hover: 0 8px 40px -8px hsl(210 20% 75% / 0.15), 0 16px 32px -16px hsl(0 0% 0% / 0.4);
-    --shadow-button: 0 4px 12px -2px hsl(210 20% 75% / 0.25);
-    --shadow-button-hover: 0 8px 20px -4px hsl(210 25% 85% / 0.35);
-    --shadow-elegant: 0 20px 60px -12px hsl(210 20% 75% / 0.12);
-    --shadow-glow: 0 0 40px hsl(210 25% 85% / 0.2);
+    /* Premium Metallic Blue Shadows */
+    --shadow-card: 0 4px 25px -4px hsl(210 60% 45% / 0.15), 0 8px 16px -8px hsl(0 0% 0% / 0.5);
+    --shadow-card-hover: 0 8px 40px -8px hsl(210 60% 45% / 0.25), 0 16px 32px -16px hsl(0 0% 0% / 0.6);
+    --shadow-button: 0 4px 12px -2px hsl(210 60% 45% / 0.3);
+    --shadow-button-hover: 0 8px 20px -4px hsl(210 65% 55% / 0.4);
+    --shadow-elegant: 0 20px 60px -12px hsl(210 60% 45% / 0.2);
+    --shadow-glow: 0 0 40px hsl(210 65% 55% / 0.25);
     
     /* Premium Spacing */
     --spacing-section: 6rem;
