@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import AudioWaveform from "./AudioWaveform";
 
 const HeroSection = () => {
   const scrollToDemo = () => {
@@ -11,6 +12,9 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-gradient-subtle opacity-50"></div>
       <div className="container mx-auto px-6 lg:px-8 relative z-10">
         <div className="max-w-5xl mx-auto text-center">
+          <div className="mb-8 flex justify-center">
+            <AudioWaveform />
+          </div>
           <h1 className="text-5xl lg:text-7xl font-bold text-brand-text mb-8 leading-tight tracking-tight">
             Turn Missed Calls Into Booked Jobs — 
             <span className="bg-gradient-premium bg-clip-text text-transparent"> Automatically</span>
